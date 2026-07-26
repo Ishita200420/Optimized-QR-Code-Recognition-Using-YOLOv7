@@ -1,4 +1,4 @@
-<img width="395" height="548" alt="positive_test_image" src="https://github.com/user-attachments/assets/cbc06209-82c2-4b44-a68b-ae768ff3332c" /># Optimized QR Code Recognition in Retail Stores Using YOLOv7 and Cuckoo Search Algorithm
+# Optimized QR Code Recognition in Retail Stores Using YOLOv7 and Cuckoo Search Algorithm
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
 ![YOLOv7](https://img.shields.io/badge/YOLOv7-Object%20Detection-success)
 ![License](https://img.shields.io/badge/License-MIT-green)

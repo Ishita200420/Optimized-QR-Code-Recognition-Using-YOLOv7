@@ -76,9 +76,20 @@ This project focuses on enhancing **QR code recognition in retail environments**
 ---
 
 ## Results
-- **Detection Accuracy**: Optimized using Cuckoo Search
-- **Improved Speed**: Faster recognition for retail scenarios
-- **Visual Outputs**: Includes detection bounding boxes and performance graphs
+
+| Metric | Result |
+|--------|--------|
+| Training Images | 1,169 |
+| Testing Images | 145 |
+| Training Epochs | 110 |
+| Detection Model | YOLOv7 |
+| Optimization Algorithm | Cuckoo Search Algorithm |
+| Detection Accuracy | 95% |
+| Decoding Accuracy | 98% |
+| F1 Score (QR Images) | 99% |
+| F1 Score (Negative Images) | 90% |
+| Processing Pipeline | YOLOv7 + CSA + Pyzbar + ZXing + OpenCV |
+| Deployment | Real-time Retail QR Recognition |
 
 <img width="829" height="330" alt="image" src="https://github.com/user-attachments/assets/bda4aed4-f813-47b8-af41-8ea635d53f39" />
 

@@ -160,21 +160,15 @@ The model was evaluated on both positive and negative samples to assess its robu
 
 ## Performance Evaluation
 
-### Confusion Matrix
+| Confusion Matrix | Occlusion Tolerance Analysis |
+|--------|--------|
+| ![](images/confusion_matrix_optimized.png) | ![](images/occlusion_tolerance_curve.png) |
 
-![](images/confusion_matrix_optimized.png)
+---
 
-### Precision–Recall Curve
-
-![](images/precision_recall_curve.png)
-
-### ROC Curve
-
-![](images/roc_curve.png)
-
-### Occlusion Tolerance Analysis
-
-![](images/occlusion_tolerance_curve.png)
+| Precision–Recall Curve | ROC Curve |
+|--------|--------|
+| ![](images/precision_recall_curve.png) | ![](images/roc_curve.png) |
 
 ---
 

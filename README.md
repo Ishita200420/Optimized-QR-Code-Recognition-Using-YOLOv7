@@ -8,7 +8,29 @@ This project focuses on enhancing **QR code recognition in retail environments**
 
 ---
 
-## 🔄 Workflow
+## Dataset
+
+The dataset consists of images collected from multiple public datasets and real-world retail environments.
+
+- Total Training Images: **1,169**
+- Total Test Images: **145**
+
+The dataset includes:
+
+- Multiple QR Codes
+- QR + Barcode Images
+- Motion Blur
+- Different Lighting Conditions
+- Occlusions
+- Perspective Distortion
+- Negative Samples
+- Real-world Retail Images
+
+Images were manually annotated using **LabelImg**.
+
+---
+
+## Workflow
 
 ```text
 Input Image

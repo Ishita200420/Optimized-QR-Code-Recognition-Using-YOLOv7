@@ -8,12 +8,28 @@ This project focuses on enhancing **QR code recognition in retail environments**
 
 ---
 
-## Key Achievements
+## 🔄 Workflow
 
-- Robust detection under blur, occlusion and illumination changes
-- Automatic hyperparameter optimization using Cuckoo Search
-- Multi-engine QR decoding for improved robustness
-- Real-time inference suitable for retail applications
+```text
+Input Image
+      │
+      ▼
+Image Pre-processing
+(Perspective Correction + Super Resolution)
+      │
+      ▼
+YOLOv7 QR Detection
+      │
+      ▼
+Cuckoo Search Optimization
+      │
+      ▼
+Multi-engine QR Decoding
+(Pyzbar + ZXing + OpenCV)
+      │
+      ▼
+Decoded QR Output
+```
 
 ---
 
@@ -97,6 +113,13 @@ This project focuses on enhancing **QR code recognition in retail environments**
 <img width="462" height="208" alt="image" src="https://github.com/user-attachments/assets/73596d53-b2ad-41a8-a704-f47d3aa5083e" />
 
 <img width="1041" height="437" alt="image" src="https://github.com/user-attachments/assets/47b35bfb-2660-42e1-afd2-cab27b2dacb8" />
+
+### Key Achievements
+
+- Robust detection under blur, occlusion and illumination changes
+- Automatic hyperparameter optimization using Cuckoo Search
+- Multi-engine QR decoding for improved robustness
+- Real-time inference suitable for retail applications
 
 ---
 

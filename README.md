@@ -142,7 +142,7 @@ The following examples demonstrate successful QR code detection and decoding on 
 
 | Input Image | Output |
 |-------------|--------|
-| ![](images/input 1.jpg) | ![](images/output 1.jpg) |
+| ![](images/input1.jpg) | ![](images/output1.jpg) |
 
 ---
 
@@ -150,7 +150,7 @@ The following examples demonstrate successful QR code detection and decoding on 
 
 | Input Image | Output |
 |-------------|--------|
-| ![](results/input_2.jpg) | ![](results/output_2.png) |
+| ![](results/input2.jpg) | ![](results/output2.png) |
 
 ---
 
@@ -160,13 +160,13 @@ The model was evaluated on both positive and negative samples to assess its robu
 
 ### QR Present
 
-![](images/present_qr_sample.png)
+![](images/positive_test_image.png)
 
 ---
 
 ### No QR Present
 
-![](images/no_qr_sample.png)
+![](images/negative_test_image.png)
 
 ---
 

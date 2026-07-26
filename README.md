@@ -142,7 +142,7 @@ The following examples demonstrate successful QR code detection and decoding on 
 
 | Input Image | Output |
 |-------------|--------|
-| ![](images/input1.jpg) | ![](images/output1.jpg) |
+| ![](images/input1.jpg) | ![](images/output1.png) |
 
 ---
 
@@ -150,7 +150,7 @@ The following examples demonstrate successful QR code detection and decoding on 
 
 | Input Image | Output |
 |-------------|--------|
-| ![](images/input2.jpg) | ![](images/output2.png) |
+| ![](images/input3.jpg) | ![](images/output3.png) |
 
 ---
 

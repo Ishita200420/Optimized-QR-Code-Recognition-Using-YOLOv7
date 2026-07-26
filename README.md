@@ -1,4 +1,7 @@
 # Optimized QR Code Recognition in Retail Stores Using YOLOv7 and Cuckoo Search Algorithm
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![YOLOv7](https://img.shields.io/badge/YOLOv7-Object%20Detection-success)
+![License](https://img.shields.io/badge/License-MIT-green)
 
 ## Project Overview
 This project focuses on enhancing **QR code recognition in retail environments** by integrating **YOLOv7** (a state-of-the-art object detection model) with the **Cuckoo Search Optimization algorithm** for improved detection and efficiency. The solution aims to optimize recognition speed and accuracy, making it suitable for real-time applications in retail and inventory management.

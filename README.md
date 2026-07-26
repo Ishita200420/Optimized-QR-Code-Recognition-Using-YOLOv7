@@ -8,11 +8,12 @@ This project focuses on enhancing **QR code recognition in retail environments**
 
 ---
 
-## Key Features
-- **YOLOv7-based QR Code Detection**: Utilized for fast and accurate object detection.
-- **Cuckoo Search Optimization**: Applied to fine-tune detection parameters and improve performance.
-- **Optimized for Retail Use**: Handles real-world challenges like varying lighting, rotation, and occlusion.
-- **Visualization & Analytics**: Includes performance metrics, plots, and detection results.
+## Key Achievements
+
+- Robust detection under blur, occlusion and illumination changes
+- Automatic hyperparameter optimization using Cuckoo Search
+- Multi-engine QR decoding for improved robustness
+- Real-time inference suitable for retail applications
 
 ---
 

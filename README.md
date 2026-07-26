@@ -26,7 +26,11 @@ The dataset includes:
 - Negative Samples
 - Real-world Retail Images
 
-Images were manually annotated using **LabelImg**.
+Images were manually annotated using **LabelImg** to generate accurate bounding box labels for training the YOLOv7 object detection model.
+
+| Annotation 1 | Annotation 2 |
+|--------------|--------------|
+| ![](images/manual_annotation_1.png) | ![](images/manual_annotation_2.png) |
 
 ---
 
@@ -130,11 +134,65 @@ Decoded QR Output
 | Processing Pipeline | YOLOv7 + CSA + Pyzbar + ZXing + OpenCV |
 | Deployment | Real-time Retail QR Recognition |
 
-<img width="829" height="330" alt="image" src="https://github.com/user-attachments/assets/bda4aed4-f813-47b8-af41-8ea635d53f39" />
+## Sample Detection Results
 
-<img width="462" height="208" alt="image" src="https://github.com/user-attachments/assets/73596d53-b2ad-41a8-a704-f47d3aa5083e" />
+The following examples demonstrate successful QR code detection and decoding on real-world images.
 
-<img width="1041" height="437" alt="image" src="https://github.com/user-attachments/assets/47b35bfb-2660-42e1-afd2-cab27b2dacb8" />
+### Example 1
+
+| Input Image | Output |
+|-------------|--------|
+| ![](results/input1.jpg) | ![](results/output1.png) |
+
+---
+
+### Example 2
+
+| Input Image | Output |
+|-------------|--------|
+| ![](results/input2.jpg) | ![](results/output2.png) |
+
+---
+
+## Generalization Test
+
+The model was evaluated on both positive and negative samples to assess its robustness.
+
+### QR Present
+
+![](images/present_qr_sample.png)
+
+---
+
+### No QR Present
+
+![](images/no_qr_sample.png)
+
+---
+
+> The complete set of detection examples is available in **image.zip**.
+
+---
+
+## Performance Evaluation
+
+### Confusion Matrix
+
+![](images/confusion_matrix_optimized.png)
+
+### Precision–Recall Curve
+
+![](images/precision_recall_curve.png)
+
+### ROC Curve
+
+![](images/roc_curve.png)
+
+### Occlusion Tolerance Analysis
+
+![](images/occlusion_tolerance_curve.png)
+
+---
 
 ### Key Achievements
 

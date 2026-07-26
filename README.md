@@ -1,4 +1,4 @@
-# Optimized QR Code Recognition in Retail Stores Using YOLOv7 and Cuckoo Search Algorithm
+<img width="395" height="548" alt="positive_test_image" src="https://github.com/user-attachments/assets/cbc06209-82c2-4b44-a68b-ae768ff3332c" /># Optimized QR Code Recognition in Retail Stores Using YOLOv7 and Cuckoo Search Algorithm
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
 ![YOLOv7](https://img.shields.io/badge/YOLOv7-Object%20Detection-success)
 ![License](https://img.shields.io/badge/License-MIT-green)
@@ -136,9 +136,7 @@ Decoded QR Output
 
 ## Sample Detection Results
 
-The following examples demonstrate successful QR code detection and decoding on real-world images.
-
-### Example 1
+The following example demonstrates successful QR code detection and decoding on real-world images.
 
 | Input Image | Output |
 |-------------|--------|
@@ -146,27 +144,13 @@ The following examples demonstrate successful QR code detection and decoding on 
 
 ---
 
-### Example 2
-
-| Input Image | Output |
-|-------------|--------|
-| ![](images/input3.jpg) | ![](images/output3.png) |
-
----
-
 ## Generalization Test
 
 The model was evaluated on both positive and negative samples to assess its robustness.
 
-### QR Present
-
-![](images/positive_test_image.png)
-
----
-
-### No QR Present
-
-![](images/negative_test_image.png)
+| Positive Image | Negative Image |
+|--------|--------|
+| ![](images/positive_test_image.png) | ![](images/negative_test_image.png) |
 
 ---
 

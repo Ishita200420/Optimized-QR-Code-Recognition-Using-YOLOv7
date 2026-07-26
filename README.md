@@ -139,7 +139,7 @@ Decoded QR Output
 The following example demonstrates successful QR code detection and decoding on real-world images.
 
 | Input Image | Output |
-|-------------|--------|
+|--------|--------|
 | ![](images/input1.jpg) | ![](images/output1.png) |
 
 ---
